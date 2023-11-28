@@ -1,0 +1,8 @@
+# Ignore IntelliJ files
+/.idea/
+/target/
+*.iml
+/out/
+/src/main/resources/
+/2022-Java/cookie.txt
+/cookie.txt
