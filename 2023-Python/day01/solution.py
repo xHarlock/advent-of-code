@@ -2,7 +2,7 @@ import re
 from utils.file_utils import read_lines
 
 
-def task_one(lines):
+def part_one(lines):
     total = 0
 
     for line in lines:
@@ -27,7 +27,7 @@ def task_one(lines):
     return total
 
 
-def task_two(lines):
+def part_two(lines):
     total = 0
 
     numbers = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
@@ -43,7 +43,7 @@ def task_two(lines):
 
 input = read_lines('input.txt')
 
-result = task_one(input)
+result = part_one(input)
 print(f'Task 1: {result}')
-result = task_two(input)
+result = part_two(input)
 print(f'Task 2: {result}')

@@ -1,7 +1,7 @@
 from utils import file_utils
 
 
-def task_one(lines):
+def part_one(lines):
     max_cubes = {'red': 12, 'green': 13, 'blue': 14}
     possible_games = 0
 
@@ -22,7 +22,7 @@ def task_one(lines):
     return possible_games
 
 
-def task_two(lines):
+def part_two(lines):
     power = 0
     for game in lines:
         game = game.split(': ')[1]
@@ -39,7 +39,7 @@ def task_two(lines):
 
 input = file_utils.read_lines('input.txt')
 
-result = task_one(input)
+result = part_one(input)
 print(f'Task 1: {result}')
-result = task_two(input)
+result = part_two(input)
 print(f'Task 2: {result}')
