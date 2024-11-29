@@ -36,10 +36,6 @@ To fetch the input for a specific day:
 ```
 npm run fetch <day>
 ```
-For example, to fetch the input for Day 1:
-```
-npm run fetch 1
-```
 
 ### Running Solutions
 
