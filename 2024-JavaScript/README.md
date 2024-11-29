@@ -22,6 +22,14 @@ SESSION_KEY=YOUR_SESSION_KEY
 
 ## Usage
 
+### Creating Files
+
+To create the JavaScript files for the code of a specific day, run:
+```
+npm run init <day>
+```
+This will create `part1.js` and `part2.js` for the specified day so that you can immediately start coding.
+
 ### Fetching Inputs
 
 To fetch the input for a specific day:
