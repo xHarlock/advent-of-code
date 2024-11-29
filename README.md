@@ -10,6 +10,7 @@ Repository for my Advent of Code solutions.
 
 * **2022:** Java
 * **2023:** Python
+* **2024:** JavaScript
 
 ## Acknowledgements
 
